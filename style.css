@@ -1,0 +1,57 @@
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #d4d3dd,#efefbb);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.btn{
+    color: rebeccapurple;
+    background-color: azure;
+    font-family: inherit;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+    cursor: pointer;
+
+}
+.btn:focus{
+    outline: none;
+}
+
+.btn:active{
+    transform: scale(0.98);
+}
+
+.toasts{
+    position: fixed;
+    top: 10px;
+    right:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.toast{
+    background-color: white;
+    color: rebeccapurple;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    margin: 0.5rem;
+    
+}
