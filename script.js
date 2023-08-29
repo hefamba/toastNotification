@@ -9,6 +9,8 @@ function createToast(){
     toast.innerText = 'new toast!'
     toast_container.appendChild(toast)
 
-    setTimeout(createToast, 1000)
-
+    setTimeout(()=>{
+        toast.remove()
+    }, 3000)
 }
+
